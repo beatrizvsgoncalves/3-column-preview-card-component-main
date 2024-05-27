@@ -37,7 +37,7 @@ Os usuários deverão ser capazes de:
 
 ### Links
 
-- Solução URL: [Frontend Mentor]()
+- Solução URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/3column-card-using-flexbox-kdlLkUtde_)
 - Site URL: [Github Pages](https://beatrizvsgoncalves.github.io/3-column-preview-card-component-main/)
 
 ## Meu processo
