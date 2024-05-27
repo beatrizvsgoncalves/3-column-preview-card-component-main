@@ -1,0 +1,44 @@
+@media screen and (min-width: 700px) {
+    body {
+        justify-content: center;
+    }
+
+    main {
+        flex-direction: row;
+        width: 39rem;
+    }
+    
+    article p {
+        padding-bottom: 3rem;
+    }
+
+    article#sedans {
+        border-radius: .4rem 0 0 .4rem;
+    }
+
+    article#luxury {
+        border-radius: 0 .4rem  .4rem 0;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    main {
+        width: 50rem
+    }
+
+    article {
+        padding: 2.5rem;
+    }
+
+    article img {
+        width: 2.9rem;
+    }
+
+    article h1 {
+        font-size: 2em;
+    }
+
+    article p , article button {
+        font-size: .9em;
+    }
+}

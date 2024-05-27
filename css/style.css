@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray: hsl(0, 0%, 95%);
+
+    --font-ps-buttons: "Lexend Deca", sans-serif;
+    --font-headings: "Big Shoulders Display", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: var(--very-light-gray);
+    font-size: 15px;
+    height: 100vh;
+    padding: 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+    width: 14rem;
+}
+
+article {
+    padding: 2rem;
+}
+
+article img {
+    width: 2.6rem;
+}
+
+article h1 {
+    color: var(--transparent-white);
+    font: 700 1.7em var(--font-headings);
+    padding: 1.1rem 0;
+    text-transform: uppercase;
+}
+
+article p {
+    color: var(--transparent-white);
+    font: 300 0.7em var(--font-ps-buttons);
+    line-height: 1.8em;
+    padding-bottom: 1rem;
+}
+
+article button {
+    border-radius: 1rem;
+    border: 1px solid;
+    font: 400 0.7em var(--font-ps-buttons);
+    padding: 0.5rem 1.2rem;
+}
+
+article#sedans {
+    background-color: var(--orange);
+    border-radius: .4rem .4rem 0 0;
+}
+
+article#sedans button {
+    border-color: var(--orange);
+    color: var(--orange);
+}
+
+article#sedans button:hover {
+    background-color: var(--orange);
+    border-color: var(--transparent-white);
+    color: var(--transparent-white);
+}
+
+article#suvs {
+    background-color: var(--dark-cyan);
+}
+
+article#suvs button {
+    border-color: var(--dark-cyan);
+    color: var(--dark-cyan);
+}
+
+article#suvs button:hover {
+    background-color: var(--dark-cyan);
+    border-color:var(--transparent-white);
+    color: var(--transparent-white);
+}
+
+article#luxury {
+    background-color: var(--very-dark-cyan);
+    border-radius: 0 0 .4rem .4rem;
+}
+
+article#luxury button {
+    border-color: var(--very-dark-cyan);
+    color: var(--very-dark-cyan);
+}
+
+article#luxury button:hover {
+    background-color: var(--very-dark-cyan);
+    border-color: var(--transparent-white);
+    color: var(--transparent-white);
+}
+
+footer {
+    font: .8em var(--font-ps-buttons);
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+footer p a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
